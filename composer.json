@@ -16,5 +16,12 @@
         "psr-4": {
             "Naux\\Mail\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Naux\\Mail\\SendCloudServiceProvider"
+            ]
+        }
     }
 }
